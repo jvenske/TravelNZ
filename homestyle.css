@@ -36,9 +36,21 @@
 .navbar ul li::after{
     content: ' ';
     height: 3px;
-    width: 100%;
+    width: 0%;
     background: #009688;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    color: white;
 }
