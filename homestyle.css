@@ -7,8 +7,89 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(assets/homebackground.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.096),rgba(0, 0, 0, 0.96)), url(assets/homebackground.jpg);
     background-size: cover;
     background-position: center;
     padding: 10px 8%;
+}
+
+.logo{
+    width: 120px;
+    height: 100px;
+    cursor: pointer;
+}
+
+nav form{
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+nav form input{
+    border: 0;
+    outline: 0;
+    width:100%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.btn{
+    background:rgba(0, 0, 0, 0);
+    color: #fff;
+    cursor: pointer;
+}
+
+.button{
+    display: center;
+    align-items: center;
+    padding:10px 20px;
+    border: 0;
+    outline:0;
+    border-radius: 5px;
+    background: #f5168d00;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: rgba(255, 255, 255, 0.664);
+    text-decoration: none;
+}
+
+
+.content{
+    margin-top: 14%;
+    color: rgb(255, 255, 255);
+}
+
+.content h1{
+    font-size: 70px;
+    font-weight: 20;
+    text-align: center;
+    line-height: 85px;
+    margin-bottom: 25px;
 }
