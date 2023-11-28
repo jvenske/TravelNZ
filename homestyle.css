@@ -6,7 +6,7 @@
 }
 .container{
     width: 100%;
-    min-height: 100vh;
+    min-height: 700px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.096),rgba(0, 0, 0, 0.96)), url(assets/homebackground.jpg);
     background-size: cover;
     background-position: center;
@@ -23,7 +23,7 @@ nav form{
     display: flex;
     align-items: center;
     background: rgba(255, 255, 255, 0);
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 10px;
     margin-top: 30px;
 }
@@ -87,9 +87,28 @@ nav ul li a{
 }
 
 .content h1{
-    font-size: 70px;
+    font-size: 100px;
     font-weight: 20;
     text-align: center;
-    line-height: 85px;
+    line-height: 400px;
     margin-bottom: 25px;
+}
+
+
+.mainbod{
+    margin: 50px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.mainbod h1{
+    font-size: 30px;
+    color: #000;
+}
+
+.mainbod p{
+    font-size: 20px;
+    padding: 60px;
+    color: #000;
 }
