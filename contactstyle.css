@@ -80,3 +80,28 @@ nav ul li a {
     color: rgba(255, 255, 255, 0.664);
     text-decoration: none;
 }
+
+.arow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8%;
+}
+
+.acol {
+    flex-basis: 50%;
+    position: relative;
+}
+
+.acol p {
+    margin-top: 5%;
+    font-size: 25px;
+}
+
+.acol h1 {
+    margin-top: 5%;
+}
+
+.aimg {
+    width: 300px;
+    margin-top: 10px;
+}
