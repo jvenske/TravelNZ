@@ -159,3 +159,52 @@ h1 {
     padding-top: 3%;
     padding-left: 10%;
 }
+
+@media screen and (max-device-width: 1024px) {
+    .row {
+        display: block;
+    }
+
+    .column img {
+        max-height: 400px;
+    }
+}
+
+@media screen and (max-device-width: 430px) {
+
+    .row {
+        display: block;
+    }
+
+    .column img {
+        max-height: 400px;
+    }
+
+    nav {
+        width: 100%;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+
+    nav ul {
+        list-style: none;
+        width: 100%;
+        text-align: left;
+        font-size: 60px;
+        padding-right: 60px;
+    }
+
+    .logo {
+        width: 160px;
+        height: 120px;
+        cursor: pointer;
+    }
+
+    .erow {
+        display: block;
+        flex-wrap: wrap;
+        padding: 8%;
+    }
+}

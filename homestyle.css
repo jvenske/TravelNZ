@@ -4,22 +4,23 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     width: 100%;
     min-height: 700px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.096),rgba(0, 0, 0, 0.96)), url(assets/homebackground.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.096), rgba(0, 0, 0, 0.96)), url(assets/homebackground.jpg);
     background-size: cover;
     background-position: center;
     padding: 10px 8%;
 }
 
-.logo{
+.logo {
     width: 120px;
     height: 100px;
     cursor: pointer;
 }
 
-nav form{
+nav form {
     display: flex;
     align-items: center;
     background: rgba(255, 255, 255, 0);
@@ -28,26 +29,26 @@ nav form{
     margin-top: 30px;
 }
 
-nav form input{
+nav form input {
     border: 0;
     outline: 0;
-    width:100%;
+    width: 100%;
     font-size: 16px;
     padding-left: 10px;
 }
 
-.btn{
-    background:rgba(0, 0, 0, 0);
+.btn {
+    background: rgba(0, 0, 0, 0);
     color: #fff;
     cursor: pointer;
 }
 
-.button{
+.button {
     display: center;
     align-items: center;
-    padding:10px 20px;
+    padding: 10px 20px;
     border: 0;
-    outline:0;
+    outline: 0;
     border-radius: 5px;
     background: #f5168d00;
     color: #fff;
@@ -55,7 +56,7 @@ nav form input{
     cursor: pointer;
 }
 
-nav{
+nav {
     width: 100%;
     display: flex;
     align-items: center;
@@ -63,30 +64,30 @@ nav{
     padding: 10px 0;
 }
 
-nav ul{
+nav ul {
     list-style: none;
     width: 100%;
     text-align: right;
     padding-right: 60px;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     margin: 10px 20px;
 }
 
-nav ul li a{
+nav ul li a {
     color: rgba(255, 255, 255, 0.664);
     text-decoration: none;
 }
 
 
-.content{
+.content {
     margin-top: 14%;
     color: rgb(255, 255, 255);
 }
 
-.content h1{
+.content h1 {
     font-size: 100px;
     font-weight: 20;
     text-align: center;
@@ -95,20 +96,72 @@ nav ul li a{
 }
 
 
-.mainbod{
+.mainbod {
     margin: 50px;
     text-align: center;
     margin-left: 300px;
     margin-right: 300px;
 }
 
-.mainbod h1{
+.mainbod h1 {
     font-size: 30px;
     color: #000;
 }
 
-.mainbod p{
+.mainbod p {
     font-size: 20px;
     padding: 60px;
     color: #000;
+}
+
+
+@media screen and (max-device-width: 1024px) {
+    .mainbod {
+        margin: 30px;
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .mainbod p {
+        font-size: 20px;
+    }
+
+
+    .content {
+        margin-top: 14%;
+        color: rgb(255, 255, 255);
+    }
+
+    .content h1 {
+        font-size: 100px;
+        font-weight: 20;
+        text-align: center;
+        line-height: 200px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-device-width: 430px) {
+    .logo {
+        width: 160px;
+        height: 120px;
+        cursor: pointer;
+    }
+
+    nav {
+        width: 100%;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+
+    nav ul {
+        list-style: none;
+        width: 100%;
+        text-align: left;
+        padding-right: 60px;
+        font-size: 40px;
+    }
 }
